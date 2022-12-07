@@ -8,11 +8,120 @@ DARK BLUE: #1D3557
 
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
 body {
     margin: 0;
     text-align: center;
+    font-family: 'Comfortaa', cursive;
+    text-shadow: 0 0 1px #001233;
+    color: #03045E;
 }
 
-img {
-    width: 100px;
+h1 {
+    background-color: #03045E;
+    color: #F7FDEC;
+    border-radius: 10px;
+    padding: 12px 12px 5px 12px;
+}
+
+h2 {
+    background-color: #0077B6;
+    color: #F7FDEC;
+    border-radius: 20px;
+    padding: 12px 29px 6px 28px;
+    margin: 0 20px;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: larger;
+}
+
+.section {
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+.activities-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 10%;
+}
+
+.activity-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#durian-img {
+    object-position: -0.15%;
+}
+
+#nasilemak-img {
+    object-fit: scale-down;
+}
+
+.activity-img:hover {
+    box-shadow: 0 0 4px #001233;
+}
+
+.activity-title {
+    font-weight: bold;
+    font-size: larger;
+}
+
+#hero-section {
+    background-image: url("https://media.giphy.com/media/Up2Szry6JR5rjDRhcK/giphy-downsized-large.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#activities-section {
+    background-color: #CAF0F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 40px 12% 50px 12%;
+    gap: 35px;
+}
+
+#avatar-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;
+}
+
+#guide-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px 25%;
+    padding: 24px 14px;
+    gap: 2%;
+    background-color: #90E0EF;
+    border-radius: 15px;
+    border-bottom: 5px solid #00B4D8;
+}
+
+#guide-writeup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#guide-quote {
+    font-style: italic;
 }
