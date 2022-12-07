@@ -90,7 +90,7 @@ h3 {
 }
 
 #activities-section {
-    background-color: #CAF0F8;
+    background-image: linear-gradient( #90E0EF, #CAF0F8);
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -111,9 +111,9 @@ h3 {
     margin: 50px 25%;
     padding: 24px 14px;
     gap: 2%;
-    background-color: #90E0EF;
+    background-image: linear-gradient( #90E0EF, #CAF0F8);
     border-radius: 15px;
-    border-bottom: 5px solid #00B4D8;
+    border-bottom: 5px solid #03045E;
 }
 
 #guide-writeup {
